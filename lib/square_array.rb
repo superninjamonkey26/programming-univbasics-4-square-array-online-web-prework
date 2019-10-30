@@ -2,19 +2,13 @@ def square_array(array)
   # your code here
 end
 
-def square_array(array)
-  new array = []
-  counter = 0
-  while array[counter] do
-    puts array[]
-    counter
-  end
-end
-
 
 
 def square_array(array)
   new_array = []
   counter = 0
   
-  
+  while counter < array.length do
+    new_array << array(counter) ** 2
+    counter += 1
+  end
